@@ -231,6 +231,9 @@
         }, 
         {
             "uri" : "randomtiles.png"
+        }, 
+        {
+            "uri" : "randomtiles_normal.png"
         }
     ], 
     "materials" : [
@@ -244,6 +247,9 @@
         }, 
         {
             "name" : "randomtiles", 
+            "normalTexture" : {
+                "index" : 2
+            }, 
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
@@ -365,9 +371,9 @@
                 0.9999999403953552
             ], 
             "translation" : [
-                4.076245307922363, 
-                5.903861999511719, 
-                -1.0054539442062378
+                3.2465426921844482, 
+                2.759514570236206, 
+                2.3703651428222656
             ]
         }
     ], 
@@ -396,6 +402,10 @@
         {
             "sampler" : 0, 
             "source" : 1
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 2
         }
     ]
 }
